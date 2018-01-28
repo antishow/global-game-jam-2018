@@ -11,4 +11,8 @@ public class TitleScreenUI : MonoBehaviour {
 	public void QuitGame(){
 		Application.Quit();
 	}
+
+	public void ReturnToTitle(){
+		SceneManager.LoadScene("Title Screen");
+	}
 }
