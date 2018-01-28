@@ -6,6 +6,8 @@ public class RadioButtons : MonoBehaviour {
     public delegate void Update(int? value);
     public event Update OnUpdate;
 
+	private AudioSource audio;
+
 	private int? _value;
 	public int? Value {
 		get { return _value; }
@@ -29,6 +31,7 @@ public class RadioButtons : MonoBehaviour {
 
 	void Awake(){
 		Buttons = GetComponentsInChildren<ToggleButton>();
+		audio = GetComponent<AudioSource>();
 
         for (int i = 0; i < Buttons.Length; i++)
         {
@@ -48,6 +51,10 @@ public class RadioButtons : MonoBehaviour {
 					break;
 				}
 			}
+		}
+
+		if(audio){
+			audio.Play();
 		}
 	}
 
