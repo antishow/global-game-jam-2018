@@ -10,7 +10,7 @@ public class Screwdriver : MonoBehaviour {
 		usable.OnUsed += HandleUse;
 	}
 
-	void HandleUse(GameObject usedBy){
+	void HandleUse(GameObject usedBy, GameObject usedOn){
 		Debug.LogFormat("Screwdriver was used by {0}", usedBy.name);
 	}
 }

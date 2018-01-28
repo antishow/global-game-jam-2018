@@ -5,9 +5,11 @@ using UnityEngine;
 public class HoldableItem : MonoBehaviour {
 	private Rigidbody rigidbody;
 	private Transform parent;
+	private Collider collider;
 
 	void Awake(){
 		rigidbody = GetComponent<Rigidbody>();
+		collider = GetComponent<Collider>();
 		parent = transform.parent;
 	}
 
@@ -24,6 +26,7 @@ public class HoldableItem : MonoBehaviour {
 		transform.parent = owner.transform;
 		transform.rotation = Quaternion.identity;
 		transform.localPosition = Vector3.zero;
+		collider.enabled = false;
 
 		if(OnGrabbed != null){
 			OnGrabbed(owner);
@@ -34,6 +37,7 @@ public class HoldableItem : MonoBehaviour {
 		Debug.LogFormat("Drop {0}", gameObject.name);
 		transform.parent = parent;
 		rigidbody.isKinematic = false;
+		collider.enabled = true;
 
 		if(OnThrown != null){
 			OnThrown(thrower);

@@ -40,7 +40,7 @@ public class ToggleButton : MonoBehaviour {
 		Active = false;
 	}
 
-	void OnPress(GameObject presser){
+	void OnPress(GameObject presser, GameObject usedOn){
 		Active = !Active;
 		if(OnToggled != null){
 			OnToggled(this, Active);

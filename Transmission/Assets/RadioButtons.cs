@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RadioButtons : MonoBehaviour {
+    public delegate void Update(int? value);
+    public event Update OnUpdate;
 
 	private int? _value;
 	public int? Value {
@@ -14,6 +16,11 @@ public class RadioButtons : MonoBehaviour {
 				for(int i=0; i<Buttons.Length; i++){
 					Buttons[i].Active = (i == _value);
 				}
+
+                if (OnUpdate != null)
+                {
+                    OnUpdate(_value);
+                }
 			}
 		}
 	}

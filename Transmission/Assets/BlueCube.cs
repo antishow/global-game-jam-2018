@@ -11,7 +11,7 @@ public class BlueCube : MonoBehaviour {
 		usableItem.OnUsed += HandleUse;
 	}
 
-	void HandleUse(GameObject usedBy){
+	void HandleUse(GameObject usedBy, GameObject usedOn){
 		Debug.LogFormat("{0} screwed with the blue cube!", usedBy.name);
 	}
 }

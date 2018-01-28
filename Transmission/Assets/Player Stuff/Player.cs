@@ -110,18 +110,19 @@ public class Player : MonoBehaviour {
                     {
                         holdable.PickUp(Hand);
                         heldItem = holdable;
+						heldItem.OnThrown += OnDrop;
                         usableItem = heldItem.GetComponent<UsableItem>();
                     } else {
 						UsableItem usable = objectInCrosshairs.GetComponent<UsableItem>();
 						if(usable){
-							usable.Use(gameObject);
+							usable.Use(gameObject, objectInCrosshairs);
 						}
 					}
                 }
 			} else {
                 if (usableItem)
                 {
-                    usableItem.Use(gameObject);
+                    usableItem.Use(gameObject, objectInCrosshairs);
                 }
 			}
 		}
@@ -136,6 +137,11 @@ public class Player : MonoBehaviour {
 		if(!camera) return;
 		Vector3 cameraLine = camera.transform.forward * ArmLength;
 		Gizmos.DrawLine(camera.transform.position, camera.transform.position + cameraLine);
+	}
+
+	void OnDrop(GameObject dropper){
+		heldItem = null;
+		usableItem = null;
 	}
 
 	GameObject GetObjectInCrosshairs(){
