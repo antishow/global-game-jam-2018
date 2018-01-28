@@ -50,7 +50,7 @@ public class Module : MonoBehaviour {
 			mb.module = this;
 			bay = mb;
 			rb.isKinematic = true;
-			collider.enabled = false;
+			collider.isTrigger = true;
 		}
 	}
 }

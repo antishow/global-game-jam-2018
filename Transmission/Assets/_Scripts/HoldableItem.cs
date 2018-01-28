@@ -38,6 +38,7 @@ public class HoldableItem : MonoBehaviour {
 		transform.parent = parent;
 		rigidbody.isKinematic = false;
 		collider.enabled = true;
+		collider.isTrigger = false;
 
 		if(OnThrown != null){
 			OnThrown(thrower);
