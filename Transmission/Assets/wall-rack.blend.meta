@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: d4455361382df4e38a1eb93a5c79fea1
+timeCreated: 1517173511
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Airlock_Int_Handles_Metallics_019
+    100002: Airlock_Int_Handles_Metallics_020
+    100004: Airlock_Int_Handles_Metallics_021
+    100006: Airlock_Int_Handles_Metallics_022
+    100008: Airlock_Int_se_191_stowage_rack_1_061
+    100010: Airlock_Int_se_191_stowage_rack_1_062
+    100012: Airlock_Int_se_191_stowage_rack_1_063
+    100014: Airlock_Int_se_191_stowage_rack_1_064
+    100016: Airlock_Int_se_191_stowage_rack_1_065
+    100018: Airlock_Int_se_191_stowage_rack_1_066
+    100020: Airlock_Int_se_191_stowage_rack_1_067
+    100022: Airlock_Int_se_191_stowage_rack_1_068
+    100024: Airlock_Int_se_191_stowage_rack_1_069
+    100026: AirlockController
+    100028: //RootNode
+    400000: Airlock_Int_Handles_Metallics_019
+    400002: Airlock_Int_Handles_Metallics_020
+    400004: Airlock_Int_Handles_Metallics_021
+    400006: Airlock_Int_Handles_Metallics_022
+    400008: Airlock_Int_se_191_stowage_rack_1_061
+    400010: Airlock_Int_se_191_stowage_rack_1_062
+    400012: Airlock_Int_se_191_stowage_rack_1_063
+    400014: Airlock_Int_se_191_stowage_rack_1_064
+    400016: Airlock_Int_se_191_stowage_rack_1_065
+    400018: Airlock_Int_se_191_stowage_rack_1_066
+    400020: Airlock_Int_se_191_stowage_rack_1_067
+    400022: Airlock_Int_se_191_stowage_rack_1_068
+    400024: Airlock_Int_se_191_stowage_rack_1_069
+    400026: AirlockController
+    400028: //RootNode
+    2100000: Generic_Metals__Generic_Intersection_002
+    2100002: Airlock_1__Airlock_png_001
+    2300000: Airlock_Int_Handles_Metallics_019
+    2300002: Airlock_Int_Handles_Metallics_020
+    2300004: Airlock_Int_Handles_Metallics_021
+    2300006: Airlock_Int_Handles_Metallics_022
+    2300008: Airlock_Int_se_191_stowage_rack_1_061
+    2300010: Airlock_Int_se_191_stowage_rack_1_062
+    2300012: Airlock_Int_se_191_stowage_rack_1_063
+    2300014: Airlock_Int_se_191_stowage_rack_1_064
+    2300016: Airlock_Int_se_191_stowage_rack_1_065
+    2300018: Airlock_Int_se_191_stowage_rack_1_066
+    2300020: Airlock_Int_se_191_stowage_rack_1_067
+    2300022: Airlock_Int_se_191_stowage_rack_1_068
+    2300024: Airlock_Int_se_191_stowage_rack_1_069
+    3300000: Airlock_Int_Handles_Metallics_019
+    3300002: Airlock_Int_Handles_Metallics_020
+    3300004: Airlock_Int_Handles_Metallics_021
+    3300006: Airlock_Int_Handles_Metallics_022
+    3300008: Airlock_Int_se_191_stowage_rack_1_061
+    3300010: Airlock_Int_se_191_stowage_rack_1_062
+    3300012: Airlock_Int_se_191_stowage_rack_1_063
+    3300014: Airlock_Int_se_191_stowage_rack_1_064
+    3300016: Airlock_Int_se_191_stowage_rack_1_065
+    3300018: Airlock_Int_se_191_stowage_rack_1_066
+    3300020: Airlock_Int_se_191_stowage_rack_1_067
+    3300022: Airlock_Int_se_191_stowage_rack_1_068
+    3300024: Airlock_Int_se_191_stowage_rack_1_069
+    4300000: Airlock_Int_Handles_Metallics_022
+    4300002: Airlock_Int_Handles_Metallics_021
+    4300004: Airlock_Int_Handles_Metallics_020
+    4300006: Airlock_Int_Handles_Metallics_019
+    4300008: Airlock_Int_se_191_stowage_rack_1_069
+    4300010: Airlock_Int_se_191_stowage_rack_1_068
+    4300012: Airlock_Int_se_191_stowage_rack_1_067
+    4300014: Airlock_Int_se_191_stowage_rack_1_066
+    4300016: Airlock_Int_se_191_stowage_rack_1_065
+    4300018: Airlock_Int_se_191_stowage_rack_1_064
+    4300020: Airlock_Int_se_191_stowage_rack_1_063
+    4300022: Airlock_Int_se_191_stowage_rack_1_062
+    4300024: Airlock_Int_se_191_stowage_rack_1_061
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
